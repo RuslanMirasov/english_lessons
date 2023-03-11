@@ -1,6 +1,7 @@
 :root {
   --main-color: #119d44;
   --text-color: #414141;
+  --title: 'Bebas Neue', cursive;
 }
 * {
   margin: 0;
@@ -47,7 +48,7 @@ ul > li {
   padding-left: 20px;
   color: #414141;
   margin-top: 4px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: var(--title);
 }
 ul > li span {
   display: block;
@@ -85,24 +86,24 @@ h6 {
   width: 100%;
 }
 h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 1px;
+  font-family: var(--title);
+  font-size: 44px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
 }
 h3 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: var(--title);
   font-size: 24px;
-  line-height: 24px;
+  line-height: 28px;
   letter-spacing: 1px;
   padding-top: 30px;
 }
 
 .subtitle {
-  font-family: 'Bebas Neue', cursive;
+  font-family: var(--title);
   color: var(--main-color);
   font-size: 30px;
-  line-height: 30px;
+  line-height: 36px;
   padding: 0px;
   margin-bottom: 20px;
 }
@@ -136,8 +137,9 @@ table td {
   border: 1px solid #414141;
   color: #fff;
   width: 100%;
-  font-family: 'Bebas Neue', cursive;
+  font-family: var(--title);
   font-size: 20px;
+  line-height: 24px;
 }
 a {
   text-decoration: none;
