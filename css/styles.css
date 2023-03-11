@@ -15,10 +15,17 @@ body {
 }
 
 .conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   position: relative;
+}
+
+.conteiner.ta--r {
+  justify-content: flex-end;
 }
 
 section {
@@ -66,6 +73,15 @@ ul > li:before {
 }
 p {
   padding-top: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  width: 100%;
 }
 h2 {
   font-family: 'Bebas Neue', cursive;
@@ -124,10 +140,10 @@ table td {
 }
 a {
   text-decoration: none;
-  position: absolute;
-  right: 20px;
+  position: relative;
+  float: right;
   color: #fff;
   background: #119d44;
-  padding: 4px 30px;
-  border-radius: 4px;
+  padding: 10px 30px;
+  border-radius: 5px;
 }
